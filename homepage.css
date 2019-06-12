@@ -1,0 +1,256 @@
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+
+}
+.content{
+  width:95vw;
+  margin:0 auto 0 auto;
+}
+.main{
+
+  display:flex;
+  flex-direction: column;
+}
+.header{
+  display:flex;
+  flex:1;
+  height:5vh;
+  background-color: red;
+  flex-direction:row;
+}
+.cont{
+  display:flex;
+  flex:1;
+}
+.eml{
+  display:flex;
+  flex:5;
+}
+.link{
+  display:flex;
+  flex:1;
+}
+.nav{
+  display:flex;
+  flex:1;
+  flex-direction:row;
+  padding:8px;
+  background-color: yellow;
+
+}
+.logo{
+  display:flex;
+  width:10vw;
+  background-image:url("/home/pif/Desktop/coaching imges/logo.png");
+  background-size: cover;
+  height:20vh;
+  border-radius: 85px;
+  border:1px solid;
+
+
+}
+.name{
+  display:flex;
+width:40vw;
+
+
+
+}
+.l1{
+  border-radius:35px;
+  border:1px solid;
+  padding:10px;
+  margin-left:4px;
+
+}
+.menu{
+
+  display:flex;
+  flex-direction:row;
+  flex:1;
+  background-color:darkgrey;
+  padding:20px;
+
+}
+.article{
+  display:flex;
+  flex:1;
+  background-color:green;
+  width:100%;
+  height:70vh;
+
+}
+.img1{
+width:100%;
+height:70vh;
+
+
+}
+
+.cont1{
+  display:flex;
+  flex-direction:row;
+  flex:1;
+
+}
+.section{
+  display:flex;
+  flex:1;
+  background-color:red;
+  padding:100px;
+  background-image: url("/home/pif/Desktop/coaching imges/112.jpeg");
+  background-size:cover;
+}
+input{
+  padding:6px;
+  border-radius:5px;
+  background-color:lightgrey;
+    width:100%;
+
+}
+label{
+  font-size:20px;
+}
+#std{
+  padding:6px;
+  border-radius:5px;
+  background-color:lightgrey;
+  width:100%;
+}
+form{
+  border:2px groove;
+width:25vw;
+border-radius:6px;
+}
+.aside{
+  display:flex;
+  flex:1;
+  background-color:yellowgreen;
+  padding:180px;
+  width:95%;
+}
+.article1{
+  display:flex;
+
+
+  height:80vh;
+  flex-direction:row;
+  padding:4px;
+
+
+
+}
+.footer{
+  display:flex;
+  flex:1;
+  background-color:pink;
+  padding:20px;
+}
+ul{
+  display:block;
+
+}
+ul li{
+  display:inline-block;
+  list-style:none;
+padding:3px;
+  margin-left:70px;
+  font-size:20px;
+
+
+
+}
+.m{
+  display:flex;
+  flex-direction:row;
+  margin-left:-180px;
+  margin-top:-180px;
+}
+.m1{
+width:40vw;
+height:80vh;
+
+
+}
+.m2{
+
+  height:80vh;
+  background:grey;
+
+
+}
+a{
+  text-decoration: none;
+    color:black;
+}
+.d1{
+  width:50vw;
+  height:70vh;
+margin-left:3px;
+}
+.i1{
+  width:20vw;
+  height:40vh;
+  border:2px groove;;
+  border-radius:160px;
+  background-image:url("/home/pif/Desktop/coaching imges/book1.jpeg");
+  background-size:cover;
+
+}
+.i2{
+  width:20vw;
+  height:40vh;
+  border:2px groove;;
+  border-radius:160px;
+  background-image:url("/home/pif/Desktop/coaching imges/teacher.jpeg");
+  background-size:cover;
+
+
+}
+.i3{
+  width:20vw;
+  height:40vh;
+  border:2px groove;
+  border-radius:160px;
+  background-image:url("/home/pif/Desktop/coaching imges/test.png");
+  background-size:cover;
+
+}
+.i4{
+  width:20vw;
+  height:40vh;
+  border:2px groove;;
+  border-radius:160px;
+  background-image:url("/home/pif/Desktop/coaching imges/notebook.jpeg");
+  background-size:cover;
+
+}
+p{
+  line-height: 1.2em;
+  padding:1.2em;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+
+
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+
+  display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
